@@ -15,8 +15,8 @@ export const Logo = () => {
                 <Image
                 src="/logo.png"
                 alt="logo"
-                height={30}
-                width={30}
+                height={45}
+                width={45}
                 />
                 <p className={cn("text-lg text-neutral-700 pb-1", headingFont.className)}>
                     TaskFlow
