@@ -11,14 +11,14 @@ const headingFont = localFont({
 export const Logo = () => {
     return (
         <Link href="/">
-            <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
+            <div className="hover:opacity-75 transition items-center hidden md:flex">
                 <Image
                 src="/logo.png"
                 alt="logo"
-                height={45}
-                width={45}
+                height={65}
+                width={65}
                 />
-                <p className={cn("text-lg text-neutral-700 pb-1", headingFont.className)}>
+                <p className={cn("text-lg text-pretty text-neutral-700 pb-1", headingFont.className)}>
                     TaskFlow
                 </p>
             </div>

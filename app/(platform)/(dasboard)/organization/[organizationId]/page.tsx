@@ -1,7 +1,7 @@
 const OrganizationIdPage = () => {
     return (
         <div>
-            Org page
+            Owami
         </div>
     );
 };

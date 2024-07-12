@@ -11,7 +11,8 @@ export const Navbar = () => {
                 <div className="hidden md:flex">
                     <Logo />
                 </div>
-                <Button variant="primary" size="sm" className="rounded-sm hidden md:block h-auto py-1.5 px-2">
+                <Button variant="primary" size="sm" className="rounded-sm hidden md:block h-auto py-1.5 px-2" style={{ backgroundColor: 'rgb(207, 160, 125)',  color: 'rgb(6, 26, 48)' }}
+>
                     Create
                 </Button>
                 <Button size="sm" className="rounded-sm block md:hidden">
